@@ -5,6 +5,16 @@
 * **bot_advanced.py** — история, контекст, vision, cut-thinking.
 
 ## Быстрый старт
+
+# Установить ollama
+* скачать с сайта ollama https://ollama.com/download
+* загрузить модели используя cmd|terminal
+```bash
+ollama pull gemma3:4b
+
+ollama pull qwen3:4b
+```
+
 ```bash
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
