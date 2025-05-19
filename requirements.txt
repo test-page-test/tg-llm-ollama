@@ -1,0 +1,12 @@
+# Библиотека клиента к локальному серверу Ollama
+ollama>=0.4.8         
+
+# Telegram-SDK c асинхронным API (22-я ветка)
+python-telegram-bot>=22.0  
+
+# Чтение переменных из файла .env
+python-dotenv>=1.0    
+
+# Pillow тянется python-telegram-bot-ом через extras, 
+# но указываем явно, чтобы не возникало «ImportError: PIL»
+pillow>=10.0           
