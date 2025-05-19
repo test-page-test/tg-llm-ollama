@@ -1,0 +1,21 @@
+# Python byte-code and virtual env
+__pycache__/
+*.py[cod]
+venv/
+
+# Environment files (secrets)
+.env
+
+# Ollama models/cache
+.ollama/
+*.log
+*.tmp
+
+# Other secrets
+*.secret
+
+# IDE / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
