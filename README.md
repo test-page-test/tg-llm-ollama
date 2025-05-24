@@ -9,16 +9,44 @@
 # Установить ollama
 * скачать с сайта ollama https://ollama.com/download
 * загрузить модели используя cmd|terminal
+
 ```bash
 ollama pull gemma3:4b
-
+```
+```bash
 ollama pull qwen3:4b
 ```
+* если у вас мощный ПК (Хотя бы vRam > 4 ГБ)
 
 ```bash
-python -m venv venv && source venv/bin/activate
+ollama pull gemma3:4b
+```
+```bash
+ollama pull qwen3:4b
+```
+* Далее - работа с фалами проекта:
+```bash
+git clone https://github.com/test-page-test/tg-llm-ollama.git
+```
+```bash
+cd tg-llm-ollama.git
+```
+```bash
+python -m venv venv
+```
+```bash
+source venv/bin/activate
+```
+```bash
 pip install -r requirements.txt
-cp .env.example .env   # впишите свой BOT_TOKEN
-ollama serve 
+```
+```bash
+cp .env.example .env   # или переназовите в ".env" + впишите свой BOT_TOKEN
+```
+```bash
 python bot_minimal.py
+```
+или
+```bash
+bot_advanced.py
 ```

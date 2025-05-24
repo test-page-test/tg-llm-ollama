@@ -7,6 +7,9 @@ python-telegram-bot>=22.0
 # Чтение переменных из файла .env
 python-dotenv>=1.0    
 
+# Для обращения к модели
+httpx>=0.28.1
+
 # Pillow тянется python-telegram-bot-ом через extras, 
 # но указываем явно, чтобы не возникало «ImportError: PIL»
 pillow>=10.0           
