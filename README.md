@@ -11,10 +11,10 @@
 * загрузить модели используя cmd|terminal
 
 ```bash
-ollama pull gemma3:4b
+ollama pull qwen3:0.6b
 ```
 ```bash
-ollama pull qwen3:4b
+ollama pull gemma3:1b
 ```
 * если у вас мощный ПК (Хотя бы vRam > 4 ГБ)
 
